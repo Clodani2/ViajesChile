@@ -11,11 +11,14 @@
     <!--LINK Al cdn DE jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--link para traer los script-->
+    <script src="./assets/js/main.js"></script>
+
 
     <!--link para traer los iconosN-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
 
     <!--PEGAR EL FAVICON-->
@@ -36,18 +39,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-3 ">
-                        <li class="nav-item">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-2 ">
+                        <li class="nav-item m-2">
                             <a class="nav-link active text-light" aria-current="page" href="#">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Quienes Somos</a>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active text-light" aria-current="page" href="#quienesSomos">Quienes
+                                Somos</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Destacados</a>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active text-light" aria-current="page" href="#destacados">Destacados</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="#">Contacto</a>
+                        <li class="nav-item m-2">
+                            <a class="nav-link active text-light" aria-current="page" href="#contactos">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -91,7 +95,7 @@
 
     </div>
 
-    <section class=" text-light text-center p-3">
+    <section class=" text-light text-center p-3 " id="quienesSomos">
         <h1 class="m-5 border-bottom pb-2 ">¿Quiénes Somos?</h1>
         <div class="d-inline-flex">
             <div class="w-30 m-5">
@@ -132,7 +136,7 @@
     </section>
 
     <!---SECCION DESTACADOS-->
-    <section class=" text-center p-3 text-light">
+    <section class=" text-center p-3 text-light" id="destacados">
         <h1 class="border-bottom m-5 pb-2">Destacados</h1>
 
         <div class="container d-inline-flex" width="50%">
@@ -182,11 +186,11 @@
 
     <!---SECCION CONTACTOS-->
 
-    <div class=" text-light text-center">
+    <div class=" text-light text-center" id="contactos">
         <h1 class="border-bottom m-5 pb-2 ">Contacto</h1>
 
         <div data-tf-widget="kAIsfHrU" style="width:100%;height:400px;"></div>
-        <script src="//embed.typeform.com/next/embed.js"></script>
+        <script src="https://embed.typeform.com/next/embed.js"></script>
 
     </div>
 
@@ -194,7 +198,7 @@
     <!---FOOTER-->
     <footer class=" container-fluid  colorprinc d-inline-flex">
         <div class="">
-            <h1 class="container text-light m-2 ">Viajes Chile</h1>
+            <h1 class="container text-light m-2 fs-2">Viajes Chile</h1>
         </div>
         <div class="">
             <ul class="d-inline-flex">
